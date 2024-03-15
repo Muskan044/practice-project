@@ -12,7 +12,7 @@
             border: 1px solid #ccc ;
             border-radius: 5px;
         }
-        input[type="text"], input[type="email"], input[type="password"] {
+        input[type="text"], input[type="email"] {
             width: 90%;
             padding: 4px;
             margin-bottom: 5px;
@@ -33,26 +33,31 @@
     <a href="../index.html">back</a>
     <h1>MY CONTACTS</h1>
     <ol>
-        <li><h2>My linkedin profile</h2></li>
-        <img src="../images/linkedin.png" alt="linkedin profile here" width="30" title="linkedin profile">
-        <p>linkedin profile : <a href="https://www.linkedin.com/in/muskan-imran-1629252b2/" target="_blank">Muskan Imran</a>
-        </p>
-        <li><h2>my email</h2></li>
-        <img src="../images/gmail.png" alt="gmail here" width="30" title="my gmail">
-        <p>email: example@gmail.com</p>
-        <li><h2>my phone no.</h2></li>
-        <img src="../images/contact.png" alt="phone no here" width="30" title="my phone no">
-         <p>contact no: 01234567891</p>
-        </ol>   
+        <li><h2>Linkedin profile</h2></li>
+        <img src="../images/linkedin.png" alt="linkedin profile here" width="60">
+        <figcaption><a href="https://www.linkedin.com/in/muskan-imran-1629252b2/" target="_blank">Muskan Imran</a></figcaption>
+        <li><h2>Email</h2></li>
+        <img src="../images/mail.png" alt="gmail here" width="60">
+        <figcaption>email: example@gmail.com</figcaption>
+        <li><h2>WhatsApp</h2></li>
+        <img src="../images/wa.png" alt="WhatsApp here" width="60">
+        <figcaption>WhatsApp : 01234567891</figcaption>
+        <li><h2>GitHub</h2></li>
+        <img src="../images/github.png" alt="GitHub here" width="60">
+        <figcaption>GitHub : <a href="https://github.com/Muskan044" target="_blank">Muskan Imran</a></figcaption>
+        <li><h2>Address</h2></li>
+        <iframe src="https://shorturl.at/isR06" width="500" height="350" style="border:0;" allowfullscreen></iframe>   
     </ol><br><br>
-    <H1 style="text-align: center;">Contact Us</H1>
-    <form action="">
-        NAME : <input type="text"><br><br>
-        EMAIL : <input type="email" name="email"><br><br>
-        YOUR MESSAGE : <br><br> <textarea name="message" id="" cols="50" rows="10"></textarea><br><br>
-        <input type="submit" name="submit">
-    </form>
-    <p><a href="#top">Top</a></p>
-    <a href="#back"></a><br />
+    <footer>
+        <H1 style="text-align: center;">Contact Us</H1>
+        <form action="">
+            NAME : <input type="text" required><br><br>
+            EMAIL : <input type="email" name="email" required><br><br>
+            YOUR MESSAGE : <br><br> <textarea name="message" id="" cols="50" rows="10" required></textarea><br><br>
+            <input type="submit" name="submit">
+        </form>
+        <p><a href="#top">Top</a></p>
+        <a href="#back"></a><br />
+    </footer>
 </body>
 </html>
