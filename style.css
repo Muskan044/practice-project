@@ -1,12 +1,5 @@
-/* using rgb and color name  */
-
-.contacts , .skills , .help > h1 {
-    color: rgb(0, 128, 128);
-}
-.names h2 {
-    color: rgb(24, 133, 133);
+/* sir backround color aisa hai k is me zyada different colors add nh kr skti phir cringe lgta h */
+h1{
+    color: #edf1f1;
 }
 
-.projects > h1 {
-    color: crimson;
-}

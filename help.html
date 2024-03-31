@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>help</title>
-    <link rel="stylesheet" href="./style.css">
-    <style>
+<style>
         form {
         max-width: 400px;
         margin: 0 auto;
         padding: 20px;
         border: 1px solid #ccc ;
         border-radius: 5px;
+        border-color: black;
+        border-style: double;
     }
     input[type="text"] {
         width: 90%;
         padding: 4px;
         margin-bottom: 5px;
         border-radius: 3px;
-        border: 1px solid #ccc;
+        border: 1px solid black;
     }
     input[type="submit"] {
         background-color: grey ;
-        color: #fff;
+        color: black;
         border: none;
         padding: 10px 20px;
         border-radius: 3px;
@@ -30,13 +31,13 @@
     }
 </style>
 </head>
-<body>
-    <a href="./index.html">Back</a>
+<body style="background-color: cadetblue;">
+    <button style="border-radius: 10ch;"><a href="./index.html">Back</a></button>
     <div class="help">
         <H1 style="text-align: center;">How Can We Help?</H1>
     </div>
     <form action="">
-        YOUR MESSAGE : <br><br> <textarea name="message" id="" cols="50" rows="10" required ></textarea><br><br>
+        YOUR MESSAGE : <br><br> <textarea name="message" id="" cols="50" rows="10" required placeholder="type your message here ..."></textarea><br><br>
         <input type="submit" name="submit">
     </form>
 </body>

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
-    <link rel="stylesheet" href="../style.css">
     <style>
             form {
             max-width: 400px;
@@ -12,17 +11,19 @@
             padding: 20px;
             border: 1px solid #ccc ;
             border-radius: 5px;
+            border-color: black;
         }
         input[type="text"], input[type="email"] {
             width: 90%;
             padding: 4px;
             margin-bottom: 5px;
-            border-radius: 3px;
+            border-radius: 10ch;
+            height: 30px;
             border: 1px solid #ccc;
         }
         input[type="submit"] {
             background-color: grey ;
-            color: #fff;
+            color: black;
             border: none;
             padding: 10px 20px;
             border-radius: 3px;
@@ -30,8 +31,8 @@
         }
     </style>
 </head>
-<body>
-    <a href="../index.html">back</a>
+<body style="background-color: cadetblue;">
+    <button style="border-radius: 10ch;"><a href="../index.html">back</a></button>
     <div class="contacts">
         <h1>MY CONTACTS</h1>
     </div>
@@ -54,9 +55,9 @@
     <footer>
         <H1 style="text-align: center;">Contact Us</H1>
         <form action="">
-            NAME : <input type="text" required><br><br>
-            EMAIL : <input type="email" name="email" required><br><br>
-            YOUR MESSAGE : <br><br> <textarea name="message" id="" cols="50" rows="10" required></textarea><br><br>
+            NAME : <br><br> <input type="text" placeholder="Your Full Name" required><br><br>
+            EMAIL : <br><br> <input type="email" name="email" placeholder="Your Email" required><br><br>
+            YOUR MESSAGE : <br><br> <textarea name="message" id="" cols="50" rows="10" placeholder="Type Your Message Here..." required></textarea><br><br>
             <input type="submit" name="submit">
         </form>
         <p><a href="#top">Top</a></p>

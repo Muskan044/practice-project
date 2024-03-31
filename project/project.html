@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="../style.css">
     <style>
         table,tr,td,th{
             border: 1px solid black;
@@ -24,17 +22,19 @@
             padding: 20px;
             border: 1px solid #ccc ;
             border-radius: 5px;
+            border-color: black;
         }
         input[type="text"], input[type="email"] {
             width: 90%;
             padding: 4px;
             margin-bottom: 5px;
-            border-radius: 3px;
+            border-radius: 10ch;
+            height: 30px;
             border: 1px solid #ccc;
         }
         input[type="submit"] {
             background-color: grey ;
-            color: #fff;
+            color: black;
             border: none;
             padding: 10px 20px;
             border-radius: 3px;
@@ -42,9 +42,9 @@
         }
     </style>
 </head>
-<body>
+<body style="background-color: cadetblue;">
     <div class="projects">
-        <a href="../index.html">back</a>
+        <button style="border-radius: 10ch;"><a href="../index.html">back</a></button>
         <h1 id="top">Project : Development of weather prediction application </h1>
         <video src="../video/weatherPredict.mp4" controls loop width="400" poster="../images/weather.png"></video>
         <p>Weather forecasting uses data from satellites and radars to predict the weather. It is important because a variety of industries and everyday activities rely on accurate weather forecasting. For example, agriculture relies on weather forecasting to predict the best times for planting, growing, and harvesting crops. Weather forecasts have a high degree of reliability for shorter periods of time. For example, studies show that weather forecasts have a 90% accuracy for five-day forecasts and an 80% accuracy for a seven-day forecast. However, as the time period extends beyond ten days, the accuracy drops below 50%. This is due to the diverse factors that influence the weather, as well as the unpredictability of atmospheric conditions generating these weather patterns.</p>
@@ -86,10 +86,10 @@
     <footer>
         <H1 style="text-align: center;">Lets's Start A Project Together</H1>
         <form action="">
-            NAME : <input type="text" required><br><br>
-            EMAIL : <input type="email" name="email" required><br><br>
-            ORGANIZATION : <input type="text" name="organization" required><br><br>
-            WHAT SERVICES ARE YOU LOOKING FOR : <br><br> <textarea name="message" id="" cols="50" rows="10" required></textarea><br><br>
+            NAME : <br><br> <input type="text" placeholder="Full Name" required><br><br>
+            EMAIL : <br><br> <input type="email" name="email" placeholder="Your Email" required><br><br>
+            ORGANIZATION : <br><br> <input type="text" name="organization" placeholder="organization name" required><br><br>
+            WHAT SERVICES ARE YOU LOOKING FOR : <br><br> <textarea name="message" id="" cols="50" rows="10" placeholder="Type Your Message Here..." required></textarea><br><br>
             <input type="submit" name="submit">
         </form>
         <p><a href="#top">Top</a></p>
